@@ -90,6 +90,7 @@ img{
 .footer{
 	display: block;
 	padding: 1em 0;
+	padding-bottom: 2em;
 	/*grid-column: 1/5;*/
 	grid-row-start: 3;
 	grid-row-end: 4;
