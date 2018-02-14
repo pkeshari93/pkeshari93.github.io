@@ -1,0 +1,25 @@
+body{
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.btn{
+	text-align: center;
+	background-color: #fff;
+	font-size: 1.5em;
+	display: inline-block;
+	color: #333;
+	text-decoration: none;
+	padding: .2em;
+	margin: 0 .5em;
+	transition-delay: .1;
+	border: none;
+
+}
+
+.btn:hover{
+	background: #242324;
+	border-radius: 1em;
+	padding: .2em;
+	color: orange;
+}
