@@ -61,12 +61,13 @@ body{
 }*/
 
 .tag-line{
+	display: block;
 	/*grid-column: 1/5;*/
 	grid-row: span 1;
 	font-family: "Poiret One";
 	margin: 0;
 	font-size: 2em;
-	padding: 1.5em 0;
+	padding: .5em 0;
 }
 
 .enso{
