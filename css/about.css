@@ -16,9 +16,10 @@ body{
 .my-navbar{
 	display: block;
 	padding: .5em 0;
+	font-weight: bold;
 }
 .logo{
-	padding-bottom: .5em;
+	padding-bottom: 0;
 	font-family: 'Sacramento';
 	font-size: 2em;
 	display: inline-block;
@@ -57,7 +58,7 @@ h1{
 	font-size: 2em;
 	font-family: Comfortaa;
 	grid-column: 1/-1;
-	padding: .8em .5em;
+	padding: .2em .5em;
 	font-weight: bold;
 
 }
@@ -205,8 +206,9 @@ ol{
 @media(min-width: 700px){
 
 	.my-navbar{
+		height: 60px;
 		display: grid;
-		padding-top: 0;
+		padding: 0;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	}
 
@@ -217,9 +219,10 @@ ol{
 	.logo{
 		grid-column: 1/3;
 		align-self: center;
-		padding-top: .8em;
-		padding-left: 1em;
+		padding-top: .2em;
 		justify-self: start;
+		min-width: 250px;
+
 	}
 
 	.top-nav{
@@ -227,6 +230,7 @@ ol{
 		align-self: center;
 		display: inline-block;
 		justify-self: end;
+		padding-left: .5em;
 
 	}
 	.wrapper{
