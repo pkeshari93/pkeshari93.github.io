@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
-
-
 html, body{
 	margin: 0;
     height: 100%;
@@ -14,7 +8,7 @@ body{
 	flex-direction: column;
 	background: #fff;
 	text-align: center;
-	font-family: "Poiret One", Sacramento, "Cutive Mono";
+	font-family: "Poiret One", Sacramento;
 
 }
 
@@ -39,6 +33,7 @@ body{
 	font-family: 'Sacramento';
 	font-size: 2em;
 	display: inline-block;
+	padding-top: .2em;
 }
 
 .navbar, .footer{
@@ -53,16 +48,25 @@ body{
 	color: #fff;
 	text-decoration: none;
 	padding: .2em;
-	margin: 0 .5em;
-	transition-delay: .1;
+	margin: 0 .2em;
 	border: none;
 
+}
+
+.top-nav img{
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.top-nav li{
+	display: inline-block;
 }
 
 .btn:hover{
 	background: #242324;
 	border-radius: 1em;
-	padding: .2em;
 	color: orange;
 }
 
@@ -229,6 +233,7 @@ h4{
 
 .footer h2{
 	padding: 1em 0;
+	font-family: Comfartaa;
 }
 
 .footer img:hover { 
@@ -259,6 +264,8 @@ h4{
 		justify-self: start;
 		font-weight: bold;
 		min-width: 250px;
+		padding-left: 0;
+
 
 	}
 
@@ -267,6 +274,7 @@ h4{
 		align-self: center;
 		display: inline-block;
 		justify-self: end;
+		padding-right: .5em;
 
 	}
 }

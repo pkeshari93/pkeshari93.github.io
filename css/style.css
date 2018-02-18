@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
-
 html{
 	height: 100%;
 }
 body{
 	height: 100%;
-	font-family: "Poiret One", Sacramento, "Cutive Mono";
+	font-family: "Poiret One", Sacramento;
 	background: #090608;
 	color: #fff;	
 	text-align: center;
@@ -19,7 +15,6 @@ body{
 	display: grid;
 	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
 	grid-template-rows: auto auto auto;
-	padding: 0 .5em;
 }
 
 .navbar{
@@ -29,6 +24,13 @@ body{
 	grid-row: 1/2;
 }
 
+.top-nav img{
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
 
 .logo{
 	padding-bottom: 0;
@@ -36,12 +38,13 @@ body{
 	font-size: 2em;
 	display: inline-block;
 	min-width: 250px;
+	padding-top: 0;
 }
 
 h1{
 	display: block;
 	font-size: .5em;
-	font-family: "Poiret One";
+	font-family: Comfortaa;
 	padding: .2em .5em;
 	font-weight: bold;
 }
@@ -52,7 +55,7 @@ h1{
 	color: #fff;
 	text-decoration: none;
 	padding: .2em;
-	margin: 0 .5em;
+	margin: 0 .2em;
 	/*transition-delay: .1;*/
 
 }
@@ -60,8 +63,6 @@ h1{
 .btn:hover{
 	background: #242324;
 	border-radius: 1em;
-	padding: .2em;
-	/*font-size: 1.05em;*/
 	color: orange;
 
 }
@@ -74,7 +75,6 @@ h1{
 	display: block;
 	/*grid-column: 1/5;*/
 	grid-row: span 1;
-	font-family: "Poiret One";
 	margin: 0;
 	font-size: 2em;
 	padding: .5em 0;
@@ -108,6 +108,8 @@ img{
 	grid-row-start: 3;
 	grid-row-end: 4;
 	align-self: end;
+	font-family: Comfortaa;
+	font-size: .8em;
 }
 .footer img{
 	width:40px;
@@ -156,6 +158,8 @@ img{
 		align-self: center;
 		padding-top: .2em;
 		justify-self: start;
+		padding-left: 0;
+
 	}
 
 	.top-nav{
@@ -163,7 +167,17 @@ img{
 		align-self: center;
 		display: inline-block;
 		justify-self: end;
+		padding-right: .5em;
 
+	}
+
+
+	.top-nav li{
+		display: inline-block;
+	}
+
+	.footer{
+		font-size: 1.2em;
 	}
 }
 

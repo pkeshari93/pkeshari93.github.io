@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
-
-
 body{
 	height: 100%;
-	font-family: "Poiret One", Sacramento, "Cutive Mono";
+	font-family: "Poiret One", Sacramento;
 	background: #090608;
 	color: #fff;	
 	text-align: center;
@@ -23,6 +17,7 @@ body{
 	font-family: 'Sacramento';
 	font-size: 2em;
 	display: inline-block;
+	padding-top: .2em;
 }
 
 .header{
@@ -30,6 +25,17 @@ body{
 	background: #fff;
 	color: #333;
 	padding-bottom: 1em;
+}
+
+.top-nav img{
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.top-nav li{
+	display: inline-block;
 }
 
 .btn{
@@ -40,8 +46,7 @@ body{
 	color: #fff;
 	text-decoration: none;
 	padding: .2em;
-	margin: 0 .5em;
-	transition-delay: .1;
+	margin: 0 .2em;
 	border: none;
 
 }
@@ -49,7 +54,6 @@ body{
 .btn:hover{
 	background: #242324;
 	border-radius: 1em;
-	padding: .2em;
 	color: orange;
 }
 
@@ -58,7 +62,7 @@ h1{
 	font-size: 2em;
 	font-family: Comfortaa;
 	grid-column: 1/-1;
-	padding: .2em .5em;
+	padding: .5em .5em;
 	font-weight: bold;
 
 }
@@ -69,8 +73,7 @@ h3{
 	font-family: Comfortaa;
 	line-height: 1.5em;
 	font-weight: bold;
-	padding: 0 .5em;
-	padding-bottom: .5em;
+	padding: .5em .5em;
 }
 h4{
 	display: block;
@@ -110,8 +113,7 @@ img{
 }
 p{
 	margin: 0;
-	padding: 0 .5em;
-	padding-bottom: 1em;
+	padding: .5em .5em;
 	font-family: "Cutive Mono";
 	font-size: 1.2em;
 	line-height: 2em;
@@ -191,6 +193,7 @@ ol{
 
 .footer h2{
 	padding: 1em 0;
+	font-family: Comfartaa;
 }
 
 .footer img:hover { 
@@ -222,7 +225,7 @@ ol{
 		padding-top: .2em;
 		justify-self: start;
 		min-width: 250px;
-
+		padding-left: 0;
 	}
 
 	.top-nav{
@@ -230,7 +233,7 @@ ol{
 		align-self: center;
 		display: inline-block;
 		justify-self: end;
-		padding-left: .5em;
+		padding-right: .5em;
 
 	}
 	.wrapper{
